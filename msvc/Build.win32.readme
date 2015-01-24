@@ -1,6 +1,8 @@
 The following are notes on building enchant (1.6) and its dependencies using MSVC 2008 (by John Thomson).
 Sorry they are rather rough, but it's the best I can do and should be of some help.
 
+See Build.windows.readme for an alternative way of building on Windows.
+
 Enchant depends on glib. Based on Eric's comments I think it may be important to build glib using the same exact C runtime library,
 though I have not confirmed this.
 
